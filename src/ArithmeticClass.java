@@ -2,38 +2,39 @@
 public class ArithmeticClass 
 {
 	
-		private int bobob;
-		private int ditto;
+		private int jo;
+		private int jr;
 	
 	public ArithmeticClass()
 	{
-		this.bobob = 1;
-		this.ditto = 2;
+		this.jo = 1;
+		this.jr = 2;
 	}
-	public ArithmeticClass(int bobob, int ditto)
+	public ArithmeticClass(int jo, int jr)
 	{
-		this.bobob = bobob;
-		this.ditto = ditto;
+		this.jo = jo;
+		this.jr = jr;
 	}
-	public void setBobob(int bobob)
+	public void setJo(int jo)
 	{
-		this.bobob = bobob;
+		this.jo = jo;
 	}
-	public void setDitto(int ditto)
+	public void setJr(int jr)
 	{
-		this.ditto = ditto;
+		this.jr = jr;
 	}
-	public int getBobob()
+	public int getJo()
 	{
-		return bobob;
+		return jo;
 	}
-	public int getDitto()
+	public int getJr()
 	{
-		return ditto;
+		return jr;
 	}
 	public String arithmetic()
 	{
 		String str = "";
+		str += jo + jr;
 		return str;
 	}
 }
