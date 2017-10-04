@@ -1,34 +1,34 @@
 
 public class ArithmeticClass 
 {
-		private int jo;
-		private int jr;
+		private int num1;
+		private int num2;
 	
 	public ArithmeticClass()
 	{
-		this.jo = 1;
-		this.jr = 2;
+		this.num1 = 1;
+		this.num2 = 2;
 	}
-	public ArithmeticClass(int jo, int jr)
+	public ArithmeticClass(int num1, int num2)
 	{
-		this.jo = jo;
-		this.jr = jr;
+		this.num1 = num1;
+		this.num2 = num2;
 	}
-	public void setJo(int jo)
+	public void setNum1(int num1)
 	{
-		this.jo = jo;
+		this.num1 = num1;
 	}
-	public void setJr(int jr)
+	public void setNum2(int num2)
 	{
-		this.jr = jr;
+		this.num2 = num2;
 	}
-	public int getJo()
+	public int getNum1()
 	{
-		return jo;
+		return num1;
 	}
-	public int getJr()
+	public int getNum2()
 	{
-		return jr;
+		return num2;
 	}
 	public String arithmetic()
 	{
@@ -36,19 +36,19 @@ public class ArithmeticClass
 		
 		// Adds	'Addition:     1      +     2      =      3'
 		
-		str += "Addition: " + jo + " + " + jr + " = " + (jo + jr) + "\n"; 
+		str += "Addition: " + num1 + " + " + num2 + " = " + (num1 + num2) + "\n"; 
 		
 		//Adds	'Subtraction:    1      -      2      =       -1'
 		
-		str += "Subtraction: " + jo + " - " + jr + " = " + (jo - jr) + "\n";
+		str += "Subtraction: " + num1 + " - " + num2 + " = " + (num1 - num2) + "\n";
 		
 		//Adds	'Quotient:	   1     /     2      =       0'
 		
-		str += "Quotient: " + jo + " / " + jr + " = " + (jo / jr) + "\n";
+		str += "Quotient: " + num1 + " / " + num2 + " = " + (num1 / num2) + "\n";
 		
 		//Adds	'Product: 	  1     *      2     =       3'
 		
-		str += "Product: " + jo + " * " + jr + " = " + (jo * jr) + "\n";
+		str += "Product: " + num1 + " * " + num2 + " = " + (num1 * num2) + "\n";
 		
 		//returns all str
 		return str;
@@ -57,9 +57,9 @@ public class ArithmeticClass
 	{
 		String str = "";
 		str += "Comparing Integer:" + "\n";
-		str += "Enter first interger:" + "\n" + jo + "\n";
-		str += "Enter second interger" + "\n" + jr + "\n";
-		str += "Statement is:" + "\n" + (jo <= jr);
+		if (num1 > num2) {
+			str += num1 + ">" + num2;
+		} else 
 		return str;
 	}
 }
