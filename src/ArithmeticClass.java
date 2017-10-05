@@ -58,8 +58,31 @@ public class ArithmeticClass
 		String str = "";
 		str += "Comparing Integer:" + "\n";
 		if (num1 > num2) {
-			str += num1 + ">" + num2;
-		} else 
+			str += num1 + " is larger than " + num2 + "\n";
+		} else if(num1 < num2 ) {
+			str += num1 + " is smaller than " + num2 + "\n";
+		} else {
+			str += num1 + " is equal to " + num2 + "\n" + "These numbers are equal" + "\n";
+		}
+		return str;
+	}
+	public String oddOrEven()
+	{
+		String str = "";
+		str += "Odd or Even:" + "\n";
+		
+		if (num1 % 2 == 0) {
+			str += num1 + " is even" + "\n";
+		}else {
+			str += num1 + " is odd" + "\n";
+		}
+		str += "Odd or Even:" + "\n";
+		
+		if (num2 % 2 == 0) {
+			str += num2 + " is even" + "\n";
+		}else {
+			str += num2 + " is odd" + "\n";
+		}
 		return str;
 	}
 }
