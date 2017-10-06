@@ -15,6 +15,11 @@ public class TwoIntegerRunner {
 	
 	ArithmeticClass oddeven = new ArithmeticClass(7, 8);
 	System.out.println(oddeven.oddOrEven());
+	
+	ArithmeticClass multi1 = new ArithmeticClass(4, 2);
+	System.out.println(multi1.multiples());
+	ArithmeticClass multi2 = new ArithmeticClass(5, 2);
+	System.out.println(multi2.multiples());
 	}
 	
 

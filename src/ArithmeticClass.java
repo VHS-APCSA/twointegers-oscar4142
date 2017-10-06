@@ -34,6 +34,7 @@ public class ArithmeticClass
 	{
 		String str = "";
 		
+		str += "Arithmetic:" + "\n";
 		// Adds	'Addition:     1      +     2      =      3'
 		
 		str += "Addition: " + num1 + " + " + num2 + " = " + (num1 + num2) + "\n"; 
@@ -82,6 +83,17 @@ public class ArithmeticClass
 			str += num2 + " is even" + "\n";
 		}else {
 			str += num2 + " is odd" + "\n";
+		}
+		return str;
+	}
+	public String multiples()
+	{
+		String str = "";
+		str += "Multiples:" + "\n";
+		if (num1 % num2 == 0) {
+			str += num1 + " is a multiple of " + num2 + "\n";
+		}else {
+			str += num1 + " is not a multiple of " + num2 + "\n";
 		}
 		return str;
 	}
