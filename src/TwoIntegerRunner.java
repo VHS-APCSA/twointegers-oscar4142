@@ -1,10 +1,17 @@
-
+import java.util.Scanner;
 public class TwoIntegerRunner {
 	public static void main(String[] args) 
 	{
-	ArithmeticClass mathy = new ArithmeticClass(5, 3);
-	System.out.println(mathy.arithmetic());
+	Scanner input = new Scanner(System.in);
+	int firstNum = 0;
+	int secNum = 0;
+	firstNum = input.nextInt();
+	secNum = input.nextInt();
 	
+	ArithmeticClass mathy1 = new ArithmeticClass(4, 3);
+	System.out.println(mathy1.arithmetic());
+	ArithmeticClass mathy2 = new ArithmeticClass(firstNum, secNum);
+	System.out.println(mathy2.arithmetic());
 	
 	ArithmeticClass compare1 = new ArithmeticClass(3, 3);
 	System.out.println(compare1.comparingIntergers());
