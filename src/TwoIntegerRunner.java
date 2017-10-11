@@ -8,26 +8,18 @@ public class TwoIntegerRunner {
 	firstNum = input.nextInt();
 	secNum = input.nextInt();
 	
-	ArithmeticClass mathy1 = new ArithmeticClass(4, 3);
-	System.out.println(mathy1.arithmetic());
-	ArithmeticClass mathy2 = new ArithmeticClass(firstNum, secNum);
-	System.out.println(mathy2.arithmetic());
+	ArithmeticClass mathy = new ArithmeticClass(firstNum, secNum);
+	System.out.println(mathy.arithmetic());
+	//System.out.println(mathy.arithmetic());
 	
-	ArithmeticClass compare1 = new ArithmeticClass(3, 3);
-	System.out.println(compare1.comparingIntergers());
-	ArithmeticClass compare2 = new ArithmeticClass(2, 3);
-	System.out.println(compare2.comparingIntergers());
-	ArithmeticClass compare3 = new ArithmeticClass(3, 2);
-	System.out.println(compare3.comparingIntergers());
+	System.out.println(mathy.comparingIntergers());
+	//System.out.println(mathy.comparingIntergers());
+	//System.out.println(mathy.comparingIntergers());
 	
-	ArithmeticClass oddeven = new ArithmeticClass(7, 8);
-	System.out.println(oddeven.oddOrEven());
+	System.out.println(mathy.oddOrEven());
 	
-	ArithmeticClass multi1 = new ArithmeticClass(4, 2);
-	System.out.println(multi1.multiples());
-	ArithmeticClass multi2 = new ArithmeticClass(5, 2);
-	System.out.println(multi2.multiples());
+	System.out.println(mathy.multiples());
+	//System.out.println(mathy.multiples());
+	input.close();
 	}
-	
-
 }
