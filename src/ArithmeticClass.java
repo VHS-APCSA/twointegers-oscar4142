@@ -54,15 +54,20 @@ public class ArithmeticClass
 		//returns all str
 		return str;
 	}
-	public String comparingIntergers()
+	public String comparingIntegers()
 	{
 		String str = "";
 		str += "Comparing Integer:" + "\n";
-		if (num1 > num2) {
+		if (num1 > num2)
+		{
 			str += num1 + " is larger than " + num2 + "\n";
-		} else if(num1 < num2 ) {
+		} 
+		else if(num1 < num2)
+		{
 			str += num1 + " is smaller than " + num2 + "\n";
-		} else {
+		} 
+		else 
+		{
 			str += num1 + " is equal to " + num2 + "\n" + "These numbers are equal" + "\n";
 		}
 		return str;
@@ -72,16 +77,22 @@ public class ArithmeticClass
 		String str = "";
 		str += "Odd or Even:" + "\n";
 		
-		if (num1 % 2 == 0) {
+		if (num1 % 2 == 0)
+		{
 			str += num1 + " is even" + "\n";
-		}else {
+		}
+		else
+		{
 			str += num1 + " is odd" + "\n";
 		}
 		str += "Odd or Even:" + "\n";
 		
-		if (num2 % 2 == 0) {
+		if (num2 % 2 == 0)
+		{
 			str += num2 + " is even" + "\n";
-		}else {
+		}
+		else 
+		{
 			str += num2 + " is odd" + "\n";
 		}
 		return str;
@@ -90,9 +101,12 @@ public class ArithmeticClass
 	{
 		String str = "";
 		str += "Multiples:" + "\n";
-		if (num1 % num2 == 0) {
+		if (num1 % num2 == 0)
+		{
 			str += num1 + " is a multiple of " + num2 + "\n";
-		}else {
+		}
+		else
+		{
 			str += num1 + " is not a multiple of " + num2 + "\n";
 		}
 		return str;

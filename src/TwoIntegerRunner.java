@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class TwoIntegerRunner {
+public class TwoIntegerRunner 
+{
 	public static void main(String[] args) 
 	{
 	Scanner input = new Scanner(System.in);
@@ -12,7 +13,7 @@ public class TwoIntegerRunner {
 	System.out.println(mathy.arithmetic());
 	//System.out.println(mathy.arithmetic());
 	
-	System.out.println(mathy.comparingIntergers());
+	System.out.println(mathy.comparingIntegers());
 	//System.out.println(mathy.comparingIntergers());
 	//System.out.println(mathy.comparingIntergers());
 	
